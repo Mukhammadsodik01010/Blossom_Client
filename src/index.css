@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+.MYContainer {
+  position: relative;
+  width: 1440px;
+  margin: 0 auto;
+  border: none;
+  /* border: 1px solid red */
+}
+
+.carousel-range {
+  width: 250px;
+  height: 8px;
+  border-radius: 4px;
+  appearance: none;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(to right, white 33%, #888 33%); /* default */
+}
+
+/* Webkit */
+.carousel-range::-webkit-slider-thumb {
+  appearance: none;
+}
+
+/* Firefox */
+.carousel-range::-moz-range-thumb {
+  appearance: none;
+}
