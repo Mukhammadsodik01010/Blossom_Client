@@ -8,7 +8,7 @@ function SamplePrevArrow(props) {
   const { onClick } = props;
   return (
     <div onClick={onClick} className="absolute z-50 mt-155 right-40">
-      <KeyboardArrowLeftIcon style={{ color: "white" }} fontSize="large" />
+      <KeyboardArrowLeftIcon style={{ color: "white", cursor:"pointer" }} fontSize="large" />
     </div>
   );
 }
@@ -17,7 +17,7 @@ function SampleNextArrow(props) {
   const { onClick } = props;
   return (
     <div onClick={onClick} className="absolute z-50 -mt-24 right-25">
-      <KeyboardArrowRightIcon style={{ color: "white" }} fontSize="large" />
+      <KeyboardArrowRightIcon style={{ color: "white", cursor:"pointer" }} fontSize="large" />
     </div>
   );
 }

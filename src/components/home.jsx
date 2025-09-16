@@ -9,6 +9,7 @@ import TrendingComp from "./pages/trending";
 import ChildrenComp from "./pages/Children";
 import AppDownloadImage from "../assets/DownloadAdds.svg";
 import ShoesComp from "./pages/shoes";
+import FooterComp from "./pages/footer";
 
 const HomeComp = () => {
   return (
@@ -41,6 +42,7 @@ const HomeComp = () => {
         />
       </div>
       <ShoesComp />
+      <FooterComp />
     </>
   );
 };
